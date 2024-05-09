@@ -1,18 +1,127 @@
-body{
-    padding: 10px;
-    background-color: rgb(9, 7, 21);
+html {
+    font-family:Tahoma;
+    background-color: #6495ed;
+  }
+  
+/*Sobre*/
+.sobre{
+  margin: 30px;
 }
-h1{
-    text-align-last: left;
-    color: rgb(171, 171, 255);
-    font-size: 35; 
-    font-family: Arial;
+
+.title-sobre{
+  margin-top: 70px;
 }
-p{
-    text-align-last: left;
-    color: rgb(171, 171, 255);
-    border-width: 10px;
-    border: 50px;
-    font-size: 20PX;
-    font-family: Arial;
+
+.foto{
+  margin: 0;
+  width: 300px;
+  height: 340px;
+  border-radius: 60px;
+}
+
+.decri-sobre{
+  font-size: 18px;
+  padding: 30px;
+  margin-right: 10px;
+  margin-top: 2px;
+  background-color: #4f8bfb;
+  border-radius: 30px;
+}
+
+.alinhamento{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+/*Skill's*/
+.skills{
+  background-color: #4f8bfb;
+  display: flex;
+}
+.painel{
+  text-align: center;
+  margin-top: 40px;
+  background-color: #4f8bfb;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.html, 
+.css, 
+.js{
+  width: 100px;
+  height: 120px;
+  border-radius: 0;
+  margin-left: 50px;
+}
+
+/*Sites*/
+.titulo-sites{
+  text-align: center;
+  margin-top: 40px;
+  background-color: #4f8bfb;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+/*Todos os Site*/
+.pri-sit, .seg-sit,
+.ter-sit, .qua-sit{
+  display: flex;
+  align-items: center;
+}
+
+.primeira-sit, .Segundo-sit,
+.terceiro-sit, .quarto-sit{
+  width: 600px;
+  height: 300px;
+  margin-left: 60px;
+}
+.desc-sit-1, .desc-sit-2,
+.desc-sit-3, .desc-sit-4{
+  font-size: 18px;
+  width: 600px;
+  height: 300px;
+  margin-left: 60px;
+  background-color: #4f8bfb;
+  border: 10px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+/*Links*/
+.links{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  background-color: #3276f4;
+}
+
+/*Rodapé*/
+.rod-pe{
+  width: 100%;
+  height: 20px;
+  margin: 0px;
+  background-color: #3276f4;
+}
+
+.git, .lik, .what{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: 6px;
+  
+}
+
+.git{
+  margin-left: 900px;
+}
+
+.titulo{
+  margin-left: 15px;
 }
