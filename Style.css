@@ -1,0 +1,18 @@
+body{
+    padding: 10px;
+    background-color: rgb(9, 7, 21);
+}
+h1{
+    text-align-last: left;
+    color: rgb(171, 171, 255);
+    font-size: 35; 
+    font-family: Arial;
+}
+p{
+    text-align-last: left;
+    color: rgb(171, 171, 255);
+    border-width: 10px;
+    border: 50px;
+    font-size: 20PX;
+    font-family: Arial;
+}
